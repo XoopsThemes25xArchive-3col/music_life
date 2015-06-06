@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="Refresh" content="<{$time}>; url=<{$url}>" />
+<title><{$xoops_sitename}></title>
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<style>
+<!--
+.style6 {color: #CCCCCC}
+.style9 {color: #333333}
+-->
+</style>
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<!-- START HEADER-->
+<div align="center">
+  <center>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="MainWidth" height="1" style="border-collapse: collapse; " bordercolor="#111111" bgcolor="#FFFFFF">
+<tr>
+      <td id="header" width="976" style="height: 200">&nbsp;
+        </td>
+</tr>
+<tr>
+      <td id="nav" width="1000" style="height: 28; vertical-align:middle" background="images/bg_nav.jpg">
+      <span lang="en-us">	        <table cellspacing="0" id="topMenu" >
+			  <tr>
+				<td><a href="<{xoAppUrl /}>">home</a></td>
+				<td><a href="<{xoAppUrl /modules/news}>">news</a></td>
+				<td><a href="<{xoAppUrl /modules/article}>">articles</a></td>
+				<td><a href="<{xoAppUrl /modules/newbb}>">forum</a></td>
+				<td><a href="<{xoAppUrl /modules/extgallery}>">gallery</a></td>
+				<td><a href="<{xoAppUrl /modules/extcal}>">events</a></td>
+				<td><a href="<{xoAppUrl /modules/formulaire}>">contact</a></td>
+			  </tr>
+			</table>
+	</td></span></td>
+</tr>
+</table>
+
+  </center>
+</div>
+<table cellspacing="0" id="Main" align="center">
+    <tr>
+	 
+      <td id="centercolumn" style="padding-top:40px; padding-bottom:60px; ">
+        <!-- Display center blocks if any -->
+<div style="text-align:center;">
+  <h4><{$message}></h4>
+  <p><{$lang_ifnotreload}></p>
+</div>
+<{if $xoops_logdump != ''}><div><{$xoops_logdump}></div><{/if}>
+
+  <!-- End display center blocks --></td>
+     </tr>
+    <tr>
+      <td class="footer">
+        <p align="center"><{$xoops_footer}><span lang="en-us">Designed by
+        <a target="_blank" href="http://www.maitsco.com/">MAITSCO</a></span></td>
+    </tr>
+</table>
+</body>
+</html>
